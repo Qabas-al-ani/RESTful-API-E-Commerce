@@ -33,7 +33,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-router.post("/", (req, res) => {
+router.post("/", async(req, res) => {
   // create a new category
   try {
     const newCategoryData = await Category.create(req.body);
@@ -56,6 +56,7 @@ router.put("/:id", async (req, res) => {
         },
       }
     );
+    console.log(updatedCategory);
     if (!updatedCategory) {
       res.status(404).json({ message: "No category found with that id!" });
       return;
