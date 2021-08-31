@@ -8,7 +8,7 @@ router.get("/", async (req, res) => {
   // find all products
   try {
     const productData = await Product.findAll({
-      include: [{ model: Tag }, { model: Category }],
+      include: [{ model: Category }, { model: Tag }],
     });
     res.status(200).json(productData);
   } catch (err) {
@@ -121,7 +121,7 @@ router.delete("/:id", async (req, res) => {
       res.status(404).json({ message: "No Product found with that id!" });
       return;
     }
-    res.status(200).json(deletedProduct);
+    res.status(200).json("Product deleted");
   } catch (err) {
     res.status(500).json(err);
   }
