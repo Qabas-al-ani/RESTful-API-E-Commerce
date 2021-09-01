@@ -50,11 +50,11 @@ Give a ⭐️ if you like this project!
 ```
 
 
-### A Screenshot of my deployed RESTful API E-Commerce
+### A Demo of my deployed RESTful API E-Commerce
 
-![ScreenShots](gjhjgh) 
+![full demo video](./Assets/e-commerce1.gif)
 
-[full demo video](hgjgjgh)
+![full demo video](./Assets/e-commerce2.gif)
 
 ### Questions? 
 For any questions, please contact me with the information below:
