@@ -7,7 +7,6 @@
 - [Technologies](#Technologies)
 - [Usage](#usage)
 - [Contribution](#contribution)
-- [Test Instructions](#test-instructions)
 - [Questions](#questions)
 
 ## Description:
