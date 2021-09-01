@@ -11,7 +11,7 @@
 - [Questions](#questions)
 
 ## Description:
-This project is the creation of the back end for an e-commerce site to help big companies store their data as Categories, Products, Tags by getting the data needed or creating ond posting or deleting and that's all been made by the backend, in this app i used Express.js API and Sequelize to interact with database.
+This project is the creation of the back end for an e-commerce site to help big companies store their data as Categories, Products, Tags by getting the data needed or creating ond posting or deleting and that's all been made by the backend, in this app i used Express.js API and Sequelize to interact with database. 
 
 
 ## Technologies
@@ -52,9 +52,11 @@ Give a ⭐️ if you like this project!
 
 ### A Demo of my deployed RESTful API E-Commerce
 
+
 ![full demo video](./Assets/e-commerce1.gif)
 
 ![full demo video](./Assets/e-commerce2.gif)
+
 
 ### Questions? 
 For any questions, please contact me with the information below:
